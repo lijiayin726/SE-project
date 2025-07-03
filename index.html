@@ -1,80 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>自律打卡 App 首页</title>
-  <style>
-    :root{
-      --primary:#38c172;
-      --bg:#f7fefc;
-      --text:#333;
-      --muted:#6c757d;
-    }
-    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;}
-    body{background:var(--bg);display:flex;flex-direction:column;min-height:100vh;}
-    .container{flex:1;padding:1rem;}
-
-    /* 顶部 4 个功能按键 */
-    .top-actions{display:flex;gap:0.5rem;justify-content:space-between;margin-bottom:1rem;}
-    .btn{flex:1;padding:0.6rem 0;border:none;border-radius:8px;background:var(--primary);color:#fff;font-weight:600;cursor:pointer;transition:filter .2s;}
-    .btn:hover{filter:brightness(1.05);}    
-
-    /* 统一卡片样式 */
-    .section{background:#fff;border-radius:16px;padding:1rem;margin-bottom:1rem;box-shadow:0 2px 6px rgba(0,0,0,.05);}    
-
-    /* 打卡卡片 */
-    .clock-card{display:flex;flex-direction:column;align-items:center;text-align:center;}
-    .clock-card img{width:64px;height:64px;margin:1rem 0;}
-    .progress{color:var(--primary);font-weight:700;}
-
-    /* 日历占位 */
-    .calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:0.25rem;margin-top:0.5rem;}
-    .calendar div{padding:0.5rem 0;border-radius:6px;background:#e9faf4;text-align:center;font-size:0.8rem;color:var(--primary);}    
-
-    /* 底部导航栏 */
-    .navbar{display:flex;background:#fff;border-top:1px solid #e5e5e5;}
-    .nav-item{flex:1;text-align:center;padding:0.6rem 0;color:var(--muted);font-size:0.85rem;cursor:pointer;transition:color .2s;}
-    .nav-item.active{color:var(--primary);font-weight:600;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <!-- 功能按钮区 -->
-    <div class="top-actions">
-      <button class="btn">创建</button>
-      <button class="btn">排行榜</button>
-      <button class="btn">番茄钟</button>
-      <button class="btn">总结</button>
-    </div>
-
-    <!-- 打卡卡片 -->
-    <div class="section clock-card">
-      <h2>早起</h2>
-      <p>第 <span class="progress">0</span>/14 天</p>
-      <!-- 使用在线闹钟图标，可替换成本地图片 -->
-      <img src="https://img.icons8.com/fluency/96/alarm.png" alt="alarm" />
-      <button class="btn" style="width:120px;margin-top:0.5rem;">打卡</button>
-      <p style="margin-top:0.5rem"><span class="progress">0</span>/1 次</p>
-    </div>
-
-    <!-- 日历板块（占位版，可自行替换为真正的日历脚本） -->
-    <div class="section">
-      <h2 style="margin-bottom:0.5rem;">日历</h2>
-      <div class="calendar">
-        <!-- 简单示例：14 天网格 -->
-        <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div>
-        <div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 底部导航栏 -->
-  <div class="navbar">
-    <div class="nav-item active">首页</div>
-    <div class="nav-item">发现</div>
-    <div class="nav-item">TodoList</div>
-    <div class="nav-item">我的</div>
-  </div>
+    testtesttest
 </body>
 </html>
